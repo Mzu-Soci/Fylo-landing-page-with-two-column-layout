@@ -7,6 +7,14 @@
     border: solid black 1px;
     max-width: 375px;
     text-align: center;
+    padding: 0;
+}
+
+.logo {
+    height: 25px;
+}
+
+.top {
     padding: 1em;
 }
 
@@ -28,4 +36,40 @@ p{
     color: hsl(243, 87%, 12%);
     margin-bottom: 2em;
     font-family: 'Open Sans', sans-serif;
+}
+
+/* input {
+    border: 1px black solid;
+} */
+
+.get-started {
+    padding: .4em 7.8em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5em;
+}
+
+.section-img {
+    position: relative;
+    bottom: 2em;
+}
+
+.middle {
+    background-color: #F8F8FE;
+    /* padding: 1em; */
+}
+
+.body-img {
+    margin: 1em 0 5em 0;
+    max-width: 100%;
+}
+
+h6 {
+    margin-bottom: 2em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.body_p {
+    text-align: left;
+    color: hsl(238, 22%, 44%);
 }
