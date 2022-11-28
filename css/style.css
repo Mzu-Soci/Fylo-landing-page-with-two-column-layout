@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: solid black 1px;
+    max-width: 375px;
+    text-align: center;
+    padding: 1em;
+}
+
+.hero_image {
+    margin: 5em 0 2.5em 0;
+    max-width: 100%;
+}
+
+h1 {
+    font-size:x-large;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    color: hsl(243, 87%, 12%);
+}
+
+p{
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
