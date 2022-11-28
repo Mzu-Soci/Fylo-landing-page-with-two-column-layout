@@ -1,75 +1,120 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    border: solid black 1px;
-    max-width: 375px;
-    text-align: center;
-    padding: 0;
+  border: solid black 1px;
+  max-width: 375px;
+  text-align: center;
+  padding: 0;
 }
 
 .logo {
-    height: 25px;
+  height: 25px;
 }
 
 .top {
-    padding: 1em;
+  padding: 1em;
 }
 
 .hero_image {
-    margin: 5em 0 2.5em 0;
-    max-width: 100%;
+  margin: 5em 0 2.5em 0;
+  max-width: 100%;
 }
 
 h1 {
-    font-size:x-large;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    line-height: 1.5em;
-    margin-bottom: 1em;
-    color: hsl(243, 87%, 12%);
+  font-size: x-large;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  color: hsl(243, 87%, 12%);
 }
 
-p{
-    color: hsl(243, 87%, 12%);
-    margin-bottom: 2em;
-    font-family: 'Open Sans', sans-serif;
+.hero_p {
+  color: hsl(243, 87%, 12%);
+  margin-bottom: 2em;
+  font-family: "Open Sans", sans-serif;
 }
-
-/* input {
-    border: 1px black solid;
-} */
 
 .get-started {
-    padding: .4em 7.8em;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 5em;
+  padding: 0.4em 7.8em;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 5em;
 }
 
 .section-img {
-    position: relative;
-    bottom: 2em;
+  position: relative;
+  bottom: 2em;
 }
 
-.middle {
-    background-color: #F8F8FE;
-    /* padding: 1em; */
+.middle_1 {
+  background-color: #f8f8fe;
+  margin-bottom: 4em;
 }
 
 .body-img {
-    margin: 1em 0 5em 0;
-    max-width: 100%;
+  max-width: 100%;
+  padding: 0 1.5em 4em 1.5em;
 }
 
-h6 {
-    margin-bottom: 2em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+.middle_h6 {
+  margin-bottom: 2em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
 }
 
 .body_p {
-    text-align: left;
-    color: hsl(238, 22%, 44%);
+  text-align: left;
+  color: hsl(238, 22%, 44%);
+  padding: 0 1em;
+}
+
+.testimony {
+  border-radius: 7px;
+  box-shadow: 1px 1px 8px gray;
+  background-color: white;
+  max-width: 75%;
+  margin: auto;
+  margin-top: 2em;
+  padding: 1em;
+  text-align: left;
+}
+
+.testimony_p {
+  text-align: left;
+  font-size: x-small;
+}
+
+.avatar {
+  height: 30px;
+  border-radius: 100px;
+  margin-right: 0.5em;
+}
+
+.user {
+  display: flex;
+}
+
+.full_name,
+.work_details {
+  margin: 0;
+  font-size: x-small;
+}
+
+.full_name {
+  font-weight: 700;
+}
+
+.middle_2 {
+  background-color: hsl(238, 22%, 44%);
+  color: hsl(240, 75%, 98%);
+  padding: 4em 1.5em;
+}
+
+.bottom {
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(240, 75%, 98%);
+  padding: 2em 1em;
 }
