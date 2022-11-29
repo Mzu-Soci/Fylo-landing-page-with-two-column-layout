@@ -113,8 +113,72 @@ h1 {
   padding: 4em 1.5em;
 }
 
+.middle_2_h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.middle_2_p {
+  margin: 1em 0 2em 0;
+}
+
+.mb-3_email {
+  margin: auto;
+  max-width: 14.5em;
+}
+
+.started-free {
+  padding: .4em 4em;
+  font-family: "Raleway", sans-serif;
+  font-size: small;
+  font-weight: 700;
+}
+
 .bottom {
   background-color: hsl(243, 87%, 12%);
   color: hsl(240, 75%, 98%);
-  padding: 2em 1em;
+  padding: 2em;
+  text-align: left;
+}
+
+.bottom_logo {
+  margin: 2em 0;
+}
+
+.phone, .email {
+  display: flex;
+  margin-bottom: .2em;
+}
+
+.bottom_email, .bottom_phone {
+  margin-right: .8em;
+  height: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: white;
+  margin-bottom: 2em;
+}
+
+.bottom_links {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: .5em;
+}
+
+.social {
+  margin: 2em 6.5em;
+}
+
+.social_icon {
+  height: 30px;
+  border: solid 1px white;
+  border-radius: 100px;
+  padding: 6px;
+  margin: .1em;
 }
