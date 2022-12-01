@@ -5,21 +5,16 @@
 
 .container {
   border: solid black 1px;
-  max-width: 375px;
-  text-align: center;
-  padding: 0;
 }
 
-.logo {
-  height: 25px;
-}
-
-.top {
-  padding: 1em;
+.nav_link {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+  font-family: "Open Sans", sans-serif;
+  font-size: small;
 }
 
 .hero_image {
-  margin: 5em 0 2.5em 0;
   max-width: 100%;
 }
 
@@ -28,78 +23,68 @@ h1 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.5em;
-  margin-bottom: 1em;
   color: hsl(243, 87%, 12%);
 }
 
 .hero_p {
   color: hsl(243, 87%, 12%);
-  margin-bottom: 2em;
   font-family: "Open Sans", sans-serif;
 }
 
 .get-started {
-  padding: 0.4em 7.8em;
   font-family: "Open Sans", sans-serif;
-  margin-bottom: 5em;
 }
 
 .section-img {
   position: relative;
-  bottom: 2em;
 }
 
 .middle_1 {
   background-color: #f8f8fe;
-  margin-bottom: 4em;
 }
 
 .body-img {
   max-width: 100%;
-  padding: 0 1.5em 4em 1.5em;
 }
 
 .middle_h6 {
-  margin-bottom: 2em;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
 
 .body_p {
-  text-align: left;
   color: hsl(238, 22%, 44%);
-  padding: 0 1em;
+}
+
+.body_link {
+  color: hsl(170, 45%, 43%);
+  text-decoration: none;
+}
+
+hr {
+  border-top: solid 2px hsl(170, 45%, 43%);
+  width: 10em;
+  margin: auto;
 }
 
 .testimony {
   border-radius: 7px;
   box-shadow: 1px 1px 8px gray;
   background-color: white;
-  max-width: 75%;
   margin: auto;
-  margin-top: 2em;
-  padding: 1em;
-  text-align: left;
 }
 
 .testimony_p {
-  text-align: left;
   font-size: x-small;
 }
 
 .avatar {
   height: 30px;
   border-radius: 100px;
-  margin-right: 0.5em;
-}
-
-.user {
-  display: flex;
 }
 
 .full_name,
 .work_details {
-  margin: 0;
   font-size: x-small;
 }
 
@@ -110,7 +95,6 @@ h1 {
 .middle_2 {
   background-color: hsl(238, 22%, 44%);
   color: hsl(240, 75%, 98%);
-  padding: 4em 1.5em;
 }
 
 .middle_2_h6 {
@@ -118,17 +102,7 @@ h1 {
   font-weight: 700;
 }
 
-.middle_2_p {
-  margin: 1em 0 2em 0;
-}
-
-.mb-3_email {
-  margin: auto;
-  max-width: 14.5em;
-}
-
 .started-free {
-  padding: .4em 4em;
   font-family: "Raleway", sans-serif;
   font-size: small;
   font-weight: 700;
@@ -137,29 +111,15 @@ h1 {
 .bottom {
   background-color: hsl(243, 87%, 12%);
   color: hsl(240, 75%, 98%);
-  padding: 2em;
-  text-align: left;
-}
-
-.bottom_logo {
-  margin: 2em 0;
-}
-
-.phone, .email {
-  display: flex;
-  margin-bottom: .2em;
 }
 
 .bottom_email, .bottom_phone {
-  margin-right: .8em;
   height: 18px;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 0;
   color: white;
-  margin-bottom: 2em;
 }
 
 .bottom_links {
@@ -167,18 +127,146 @@ ul {
   text-decoration: none;
 }
 
-li {
-  margin-bottom: .5em;
-}
-
-.social {
-  margin: 2em 6.5em;
-}
 
 .social_icon {
   height: 30px;
   border: solid 1px white;
   border-radius: 100px;
-  padding: 6px;
-  margin: .1em;
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 375px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .navbar {
+    padding: .5em 1.5em;
+  }
+
+  .logo {
+    height: 25px;
+    margin-right: 4em;
+  }
+
+  .top {
+    padding: 1em;
+  }
+    
+  .hero_image {
+    margin: 5em 0 2.5em 0;
+  }
+
+  h1 {
+    margin-bottom: 1em;
+  }
+
+  .hero_p {
+    margin-bottom: 2em;
+  }
+
+  .get-started {
+    padding: 0.4em 7.8em;
+    margin-bottom: 5em;
+  }
+
+  .section-img {
+    bottom: 2em;
+  }
+
+  .middle_1 {
+    margin-bottom: 4em;
+  }
+
+  .body-img {
+    padding: 0 1.5em 4em 1.5em;
+  }
+
+  .middle_h6 {
+    margin-bottom: 2em;
+  }
+
+  .body_p {
+    text-align: left;
+    padding: 0 1em;
+  }
+
+  .testimony {
+    max-width: 75%;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: left;
+  }
+  
+  .testimony_p {
+    text-align: left;
+  }
+  
+  .avatar {
+    margin-right: 0.5em;
+  }
+  
+  .user {
+    display: flex;
+  }
+  
+  .full_name,
+  .work_details {
+    margin: 0;
+  }
+  
+  .middle_2 {
+    padding: 4em 1.5em;
+  }
+  
+  .middle_2_p {
+    margin: 1em 0 2em 0;
+  }
+  
+  .mb-3_email {
+    margin: auto;
+    max-width: 14.5em;
+  }
+  
+  .started-free {
+    padding: .4em 4em;
+  }
+  
+  .bottom {
+    padding: 2em;
+    text-align: left;
+  }
+  
+  .bottom_logo {
+    margin: 2em 0;
+  }
+  
+  .phone, .email {
+    display: flex;
+    margin-bottom: .2em;
+  }
+  
+  .bottom_email, .bottom_phone {
+    margin-right: .8em;
+  }
+  
+  ul {
+    padding-left: 0;
+    margin-bottom: 2em;
+  }
+  
+  li {
+    margin-bottom: .5em;
+  }
+  
+  .social {
+    margin: 2em 6.5em;
+  }
+  
+  .social_icon {
+    padding: 6px;
+    margin: .1em;
+  }
+
 }
